@@ -2,8 +2,8 @@ import React from 'react';
 
 const Home = () => {
     return (
-        <div>
-            
+        <div className='my-10 py-10 flex h-5/6'>
+            <h1>Content</h1>
         </div>
     );
 };

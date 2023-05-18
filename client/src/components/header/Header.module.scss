@@ -1,3 +1,12 @@
-.container{
-    @apply flex justify-between;
+.header {
+    @apply border-b-2;
+
+    &__container{
+        @apply mx-14 my-10 pt-16 py-10  flex justify-between h-10;
+    }
+
+    &__logo{
+        @apply flex items-center gap-3 mx-2;
+    }
+
 }
