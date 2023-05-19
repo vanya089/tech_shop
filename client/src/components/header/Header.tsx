@@ -13,12 +13,12 @@ const Header: React.FC = () => {
                         <p className="text-red-400">За техникой к нам!</p>
                     </div>
                 </div>
-                <nav className='text-xl text-red-600 font-medium flex gap-3'>
+                <nav className='text-xl text-red-600 font-medium flex content-center items-center gap-3'>
                     <a href="#">Product</a>
                     <a href="#">About</a>
                     <a href="#">Contact</a>
                     <a href="#">Log In</a>
-                    <a className='' href="#">Sign Up</a>
+                    <a className='p-2 text-white bg-red-700 border-2 rounded-3xl' href="#">Sign Up</a>
                 </nav>
             </div>
         </div>
