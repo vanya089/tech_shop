@@ -12,7 +12,9 @@ body {
 .content {
   @apply  p-1 ;
 }
-
+.content{
+  padding: 40px 0;
+}
 .wrapper {
   width: calc(100vw - 100px);
   @apply h-full bg-white mx-auto my-12 rounded-lg max-w-screen-2xl;
