@@ -10,7 +10,7 @@ const Header: React.FC = () => {
                     <img className='w-12 h-12' src={icon_head} alt="logo"/>
                     <div>
                         <h1 className='text-2xl text-red-600 font-bold'>Tech shop</h1>
-                        <p className="text-red-400">За техникой к нам!</p>
+                        <p className="text-red-400">For technology to us!</p>
                     </div>
                 </div>
                 <nav className='text-xl text-red-600 font-medium flex content-center items-center gap-3'>

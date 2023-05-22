@@ -1,6 +1,6 @@
 import React, {memo} from "react";
 import styles from './Categories.module.scss'
-const categories = ['Популярные', 'Компьютеры и ноутбуки', 'Смартфоны', 'Планшеты', 'Аксессуары',]
+const categories = ['Popular', 'Notebooks', 'Smartphones', 'Tablets', 'Accessories',]
 
 type CategoriesProps = {
     categoryId: number;

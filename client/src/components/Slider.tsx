@@ -38,7 +38,7 @@ const Slider: React.FC = () => {
     }
 
     return (
-        <div className='max-w-[1400px] h-[780px] w-full m-auto py-16 relative group '>
+        <div className='max-w-[1300px] h-[600px] w-full m-auto pb-16 relative group '>
             <div style={{backgroundImage: `url(${slides[currentIndex].img})`}}
                  className=' w-full h-full rounded-2xl bg-center bg-cover duration-500'>
             </div>

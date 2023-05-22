@@ -12,8 +12,8 @@ const Home: React.FC = () => {
 
     return (
         <div className=' my-10 py-10 px-[40px] h-5/6'>
-            <Categories categoryId={categoryId} onChangeCategory={onChangeCategory}/>
             <Slider/>
+            <Categories categoryId={categoryId} onChangeCategory={onChangeCategory}/>
         </div>
     );
 };
