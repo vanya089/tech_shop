@@ -5,7 +5,10 @@ import Header from "./components/header/Header";
 import Home from "./pages/Home";
 import {Route, Routes} from "react-router-dom";
 import Auth from "./pages/Auth";
-import PrivateRoute from "./PrivateRoute";
+import PrivateRoute from "./router/PrivateRoute";
+import Admin from "./pages/Admin";
+import Basket from "./pages/Basket";
+import DevicePage from "./pages/DevicePage";
 
 function App() {
     return (
@@ -15,9 +18,12 @@ function App() {
                 <Header/>
                 <Routes>
                     <Route element={<PrivateRoute/>}>
-                        <Route path="/" element={<Home/>}/>
+                        <Route path="/admin" element={<Admin/>}/>
+                        <Route path="/basket" element={<Basket/>}/>
+                        <Route path="/device/:id" element={<DevicePage/>}/>
                     </Route>
-                    <Route path="login" element={<Auth/>}/>
+                    <Route path="/" element={<Home/>}/>
+                    <Route path="/login" element={<Auth/>}/>
                 </Routes>
 
             </div>
