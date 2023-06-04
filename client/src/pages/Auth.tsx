@@ -2,8 +2,8 @@ import React from 'react';
 
 const Auth:React.FC = () => {
     return (
-        <div>
-            LOGIN
+        <div className='flex justify-center items-center'>
+            AUTH
         </div>
     );
 };

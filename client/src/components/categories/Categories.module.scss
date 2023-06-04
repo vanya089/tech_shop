@@ -6,7 +6,7 @@
     flex-wrap: wrap;
 
     li {
-      @apply bg-red-200;
+      @apply bg-red-400;
       //background-color: #f9f9f9;
       padding: 13px 30px;
       border-radius: 10px;
@@ -16,11 +16,11 @@
       transition: background-color 0.1s ease-in-out;
 
       &:hover {
-        background-color: darken(#f9f9f9, 2%);
+        background-color: darken(#fdc0c0, 2%);
       }
 
       &:active {
-        background-color: darken(#f9f9f9, 5%);
+        background-color: darken(#fdc0c0, 5%);
       }
 
       &.active {
