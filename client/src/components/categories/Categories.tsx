@@ -1,13 +1,15 @@
 import React, {memo} from "react";
 import styles from './Categories.module.scss'
+
+
 const categories = ['Popular', 'Notebooks', 'Smartphones', 'Tablets', 'Accessories',]
 
-type CategoriesProps = {
+type TypeCategoriesProps = {
     categoryId: number;
     onChangeCategory: (index: number) => void;
 }
 
-const Categories: React.FC<CategoriesProps> = memo(({categoryId, onChangeCategory}) => {
+const Categories: React.FC<TypeCategoriesProps> = memo(({categoryId, onChangeCategory}) => {
 
 
         return (
