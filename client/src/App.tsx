@@ -9,10 +9,11 @@ import PrivateRoute from "./router/PrivateRoute";
 import Admin from "./pages/Admin";
 import Basket from "./pages/Basket";
 import DevicePage from "./pages/DevicePage";
+import Registration from "./pages/Registration";
 
-function App() {
+
+const App: React.FC = () => {
     return (
-
         <div className={styles.content}>
             <div className={styles.wrapper}>
                 <Header/>
@@ -24,6 +25,7 @@ function App() {
                     </Route>
                     <Route path="/" element={<Home/>}/>
                     <Route path="/login" element={<Auth/>}/>
+                    <Route path="/registration" element={<Registration/>}/>
                 </Routes>
 
             </div>
